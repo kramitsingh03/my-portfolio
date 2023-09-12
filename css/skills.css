@@ -1,0 +1,136 @@
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ /*style the text*/
+	width: 70%;
+	margin: 1rem auto;
+	color: #ffffff;
+}
+.skills h1{
+    text-align: center;
+    font-family: cursive;
+}
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+    height: 30px;
+}
+
+.bar span{ /*style the span tag*/
+	height: 30px;
+	float: left;
+	background-color: #2187e7;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 95%;
+	animation: html 2s;
+
+}
+
+.css{ /*set skills and animation of css*/
+	width: 93%;
+	animation: css 2s;
+
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.c{ /*set skills and animation of jquery*/
+	width: 60%;
+	animation: c 2s;
+}
+.php{ /*set skills and animation of jquery*/
+	width: 65%;
+	animation: php 2s;
+}
+.mysql{ /*set skills and animation of jquery*/
+	width: 40%;
+	animation: mysql 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+        height: 30px;
+	}
+
+	100%{
+		width: 95%;
+        height: 30px;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+        height: 30px;
+	}
+
+	100%{
+		width: 93%;
+        height: 30px;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+        height: 30px;
+	}
+
+	100%{
+		width: 50%;
+        height: 30px;
+	}
+}
+
+@keyframes c{ /*animate jquery skills*/
+	0%{
+		width: 0%;
+        height: 30px;
+	}
+
+	100%{
+		width: 60%;
+        height: 30px;
+	}
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+        height: 30px;
+    }
+    100%{
+        width: 65%;
+        height: 30px;
+    }
+    
+}
+@keyframes mysql {
+    0%{
+        width: 0%;
+        height: 30px;
+    }
+    100%{
+        width: 40%;
+        height: 30px;
+    }
+    
+}
