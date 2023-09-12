@@ -210,7 +210,7 @@
 /**Contact section css start here***********/
 #contact{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
    
 }
 #contact h1{
@@ -231,21 +231,80 @@
     overflow: hidden;
 }
 .contact-form{
-    background-color: azure;
+    background-color: var(--background-color);
     width: 100%;
-    height: 100%;
+    height: 90%;
     margin: 1rem;
 }
 .contact-maps{
-    background-color: azure;
+    background-color: var(--background-color);
     width: 100%;
     height: 100%;
     margin: 1rem;
 }
-
-
-
-
+.city-map{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    height: 90%;
+    width: 90%;
+}
+.contact-form{
+    width: 100%;
+    height: 90%;
+}
+.contact-form h2{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    color: var(--color);
+}
+.contact-form .form-section{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact-form form input{
+    width: 70%;
+    padding: 0.8rem;
+    border: transparent;
+    outline: none;
+    border-radius: 1rem;
+    margin-left:20%;
+    margin-top: 10px;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+.contact-form form textarea{
+    width: 70%;
+    padding: 0.8rem;
+    border: transparent;
+    outline: none;
+    border-radius: 1rem;
+    margin-left:20%;
+    margin-top: 10px;
+    resize: none;
+    background-color: rgb(175, 218, 255);
+    cursor: pointer;
+}
+#submit{
+    background-color: #F6FA70;
+    transition: 0.3s;
+}
+#reset{
+    background-color: #00DFA2;
+}
+#submit:hover{
+    background-color: #ff0095;
+}
+#reset:hover{
+    background-color: #ff0095;
+}
 
 
 
